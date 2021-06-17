@@ -1,0 +1,3 @@
+usr/local/bin/hempycoind usr/bin
+usr/local/bin/hempycoin-cli usr/bin
+debian/examples/hempycoin.conf etc/hempycoin

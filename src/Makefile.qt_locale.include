@@ -1,0 +1,15 @@
+QT_TS = \
+  qt/locale/hempycoin_de.ts \
+  qt/locale/hempycoin_en.ts \
+  qt/locale/hempycoin_en_US.ts \
+  qt/locale/hempycoin_es.ts \
+  qt/locale/hempycoin_es_ES.ts \
+  qt/locale/hempycoin_fr_FR.ts \
+  qt/locale/hempycoin_hr_HR.ts \
+  qt/locale/hempycoin_it.ts \
+  qt/locale/hempycoin_ko_KR.ts \
+  qt/locale/hempycoin_nl.ts \
+  qt/locale/hempycoin_pl.ts \
+  qt/locale/hempycoin_ru.ts \
+  qt/locale/hempycoin_tr.ts \
+  qt/locale/hempycoin_zh_CN.ts

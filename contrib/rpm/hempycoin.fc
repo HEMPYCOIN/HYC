@@ -1,0 +1,8 @@
+/usr/bin/hempycoin-cli		--	gen_context(system_u:object_r:hempycoin_exec_t,s0)
+/usr/sbin/hempycoind		--	gen_context(system_u:object_r:hempycoin_exec_t,s0)
+/usr/lib(64)?/hempycoin/hempycoind		--	gen_context(system_u:object_r:hempycoin_exec_t,s0)
+
+/etc/hempycoin(/.*)?		gen_context(system_u:object_r:hempycoin_conf_t,s0)
+/var/lib/hempycoin(/.*)?		gen_context(system_u:object_r:hempycoin_var_lib_t,s0)
+
+(/var)?/run/hempycoind(/.*)?   gen_context(system_u:object_r:hempycoin_var_run_t,s0)

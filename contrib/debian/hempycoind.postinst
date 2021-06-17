@@ -1,0 +1,28 @@
+
+#!/bin/sh
+
+# setup hempycoin account, homedir etc
+
+set -e
+
+HYCUSER="hempycoin"
+HYCHOME="/var/lib/hempycoin"
+
+if [ "$1" = "configure" ]; then
+	# Add hempycoin user/group - this will gracefully abort if the user already exists.
+	# A homedir is never created.
+	set +e
+	adduser --system --home "${HYCHOME}" --no-create-home --group "${HYCUSER}" 2>/dev/null
+	set -e
+
+	# If the homedir does not already exist, create it with proper
+	# ownership and permissions.
+	if [ ! -d "${HYCHOME}" ]; then
+		mkdir -m 0750 -p "${HYCHOME}"
+		chown "${HYCUSER}:${HYCUSER}" "${HYCHOME}"
+	fi
+fi
+
+#DEBHELPER#
+
+exit 0

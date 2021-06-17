@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=HempyCoin
+Comment=HempyCoin P2P Cryptocurrency
+Comment[fr]=HempyCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=HempyCoin, eşten eşe kriptografik sanal para birimi
+Exec=hempycoin-qt %u
+Terminal=false
+Type=Application
+Icon=hempycoin128
+MimeType=x-scheme-handler/hempycoin;
+Categories=Office;Finance;
+StartupWMClass=HempyCoin-qt
