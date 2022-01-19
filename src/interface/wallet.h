@@ -4,8 +4,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#ifndef HempyCoin_INTERFACES_WALLET_H
-#define HempyCoin_INTERFACES_WALLET_H
+#ifndef HEMPYCOIN_INTERFACES_WALLET_H
+#define HEMPYCOIN_INTERFACES_WALLET_H
 
 #include <amount.h>
 #include "wallet/wallet.h"

@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef HempyCoin_CORE_NEW_GUI_PRUNNABLE_H
-#define HempyCoin_CORE_NEW_GUI_PRUNNABLE_H
+#ifndef HEMPYCOIN_CORE_NEW_GUI_PRUNNABLE_H
+#define HEMPYCOIN_CORE_NEW_GUI_PRUNNABLE_H
 
 class Runnable {
 public:
@@ -12,4 +12,4 @@ public:
     virtual void onError(QString error, int type) = 0;
 };
 
-#endif //HempyCoin_CORE_NEW_GUI_PRUNNABLE_H
+#endif //HEMPYCOIN_CORE_NEW_GUI_PRUNNABLE_H

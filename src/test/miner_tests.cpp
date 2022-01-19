@@ -12,6 +12,7 @@
 #include "uint256.h"
 #include "util.h"
 #include "wallet/wallet.h"
+#include "utilstrencodings.h"
 
 #include "test/test_hempycoin.h"
 

@@ -86,9 +86,9 @@
 #include <openssl/crypto.h>
 #include <openssl/rand.h>
 
-const char * const HempyCoin_CONF_FILENAME = "hempycoin.conf";
-const char * const HempyCoin_PID_FILENAME = "hempycoin.pid";
-const char * const HempyCoin_MASTERNODE_CONF_FILENAME = "masternode.conf";
+const char * const HEMPYCOIN_CONF_FILENAME = "hempycoin.conf";
+const char * const HEMPYCOIN_PID_FILENAME = "hempycoin.pid";
+const char * const HEMPYCOIN_MASTERNODE_CONF_FILENAME = "masternode.conf";
 
 
 // HempyCoin only features
@@ -453,13 +453,13 @@ void ClearDatadirCache()
 
 fs::path GetConfigFile()
 {
-    fs::path pathConfigFile(GetArg("-conf", HempyCoin_CONF_FILENAME));
+    fs::path pathConfigFile(GetArg("-conf", HEMPYCOIN_CONF_FILENAME));
     return AbsPathForConfigVal(pathConfigFile, false);
 }
 
 fs::path GetMasternodeConfigFile()
 {
-    fs::path pathConfigFile(GetArg("-mnconf", HempyCoin_MASTERNODE_CONF_FILENAME));
+    fs::path pathConfigFile(GetArg("-mnconf", HEMPYCOIN_MASTERNODE_CONF_FILENAME));
     return AbsPathForConfigVal(pathConfigFile);
 }
 
@@ -502,7 +502,7 @@ fs::path AbsPathForConfigVal(const fs::path& path, bool net_specific)
 #ifndef WIN32
 fs::path GetPidFile()
 {
-    fs::path pathPidFile(GetArg("-pid", HempyCoin_PID_FILENAME));
+    fs::path pathPidFile(GetArg("-pid", HEMPYCOIN_PID_FILENAME));
     return AbsPathForConfigVal(pathPidFile);
 }
 

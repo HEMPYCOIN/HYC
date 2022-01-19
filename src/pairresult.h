@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef HempyCoin_PAIRRESULT_H
-#define HempyCoin_PAIRRESULT_H
+#ifndef HEMPYCOIN_PAIRRESULT_H
+#define HEMPYCOIN_PAIRRESULT_H
 
 
 class PairResult {
@@ -18,4 +18,4 @@ public:
 };
 
 
-#endif //HempyCoin_PAIRRESULT_H
+#endif //HEMPYCOIN_PAIRRESULT_H

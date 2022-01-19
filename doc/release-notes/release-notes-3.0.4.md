@@ -1,13 +1,13 @@
 HempyCoin version 3.0.4 is now available from:
 
-  <https://github.com/hempycoin-project/hempycoin/releases>
+  <https://github.com/HEMPYCOIN/HYC/releases>
 
 This is a new minor-revision version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/hempycoin-project/hempycoin/issues>
+  <https://github.com/HEMPYCOIN/HYC/issues>
 
 
 Mandatory Update

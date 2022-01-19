@@ -1,8 +1,8 @@
-HempyCoin version *3.4.0* is now available from:  <https://github.com/hempycoin-project/hempycoin/releases>
+HempyCoin version *3.4.0* is now available from:  <https://github.com/HEMPYCOIN/HYC/releases>
 
 This is a new major version release, including various bug fixes and performance improvements.
 
-Please report bugs using the issue tracker at github: <https://github.com/hempycoin-project/hempycoin/issues>
+Please report bugs using the issue tracker at github: <https://github.com/HEMPYCOIN/HYC/issues>
 
 
 Mandatory Update

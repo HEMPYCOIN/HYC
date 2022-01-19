@@ -34,9 +34,9 @@
 #include <boost/thread/exceptions.hpp>
 #include <boost/thread/condition_variable.hpp> // for boost::thread_interrupted
 
-extern const char * const HempyCoin_CONF_FILENAME;
-extern const char * const HempyCoin_PID_FILENAME;
-extern const char * const HempyCoin_MASTERNODE_CONF_FILENAME;
+extern const char * const HEMPYCOIN_CONF_FILENAME;
+extern const char * const HEMPYCOIN_PID_FILENAME;
+extern const char * const HEMPYCOIN_MASTERNODE_CONF_FILENAME;
 extern const char * const DEFAULT_DEBUGLOGFILE;
 
 //HempyCoin only features

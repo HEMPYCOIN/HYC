@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef HempyCoin_ADDRESSBOOK_H
-#define HempyCoin_ADDRESSBOOK_H
+#ifndef HEMPYCOIN_ADDRESSBOOK_H
+#define HEMPYCOIN_ADDRESSBOOK_H
 
 #include <map>
 #include <string>
@@ -44,4 +44,4 @@ namespace AddressBook {
 
 }
 
-#endif //HempyCoin_ADDRESSBOOK_H
+#endif //HEMPYCOIN_ADDRESSBOOK_H

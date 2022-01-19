@@ -3,8 +3,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef HempyCoin_CSPORKDB_H
-#define HempyCoin_CSPORKDB_H
+#ifndef HEMPYCOIN_CSPORKDB_H
+#define HEMPYCOIN_CSPORKDB_H
 
 #include "fs.h"
 #include "dbwrapper.h"
@@ -26,4 +26,4 @@ public:
 };
 
 
-#endif //HempyCoin_CSPORKDB_H
+#endif //HEMPYCOIN_CSPORKDB_H

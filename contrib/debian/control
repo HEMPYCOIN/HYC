@@ -29,8 +29,8 @@ Build-Depends: debhelper,
  dh-systemd
 Standards-Version: 3.9.2
 Homepage: http://www.hempycoin.org
-Vcs-Git: git://github.com/HempyCoin-Project/HempyCoin.git
-Vcs-Browser: http://github.com/HempyCoin-Project/HempyCoin
+Vcs-Git: git://github.com/HEMPYCOIN/HYC.git
+Vcs-Browser: http://github.com/HEMPYCOIN/HYC
 
 Package: hempycoind
 Architecture: any

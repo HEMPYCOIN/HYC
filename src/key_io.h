@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef HempyCoin_KEY_IO_H
-#define HempyCoin_KEY_IO_H
+#ifndef HEMPYCOIN_KEY_IO_H
+#define HEMPYCOIN_KEY_IO_H
 
 #include "chainparams.h"
 #include "key.h"
@@ -25,4 +25,4 @@ namespace KeyIO {
 
 }
 
-#endif //HempyCoin_KEY_IO_H
+#endif //HEMPYCOIN_KEY_IO_H

@@ -8,6 +8,7 @@
 
 #include "sapling/address.hpp"
 #include "sapling/util.h"
+#include "utilstrencodings.h"
 #include <boost/test/unit_test.hpp>
 #include <univalue.h>
 

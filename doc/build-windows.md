@@ -73,8 +73,8 @@ If you want to build the windows installer with `make deploy` you need [NSIS](ht
 
 Acquire the source in the usual way:
 
-    git clone https://github.com/hempycoin-project/hempycoin.git
-    cd hempycoin
+    git clone https://github.com/HEMPYCOIN/HYC.git
+    cd HYC
 
 ## Building for 64-bit Windows
 
@@ -101,6 +101,20 @@ Build using:
     ./autogen.sh # not required when building from tarball
     CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/
     make
+    ./util/fetch-params.sh ./params # copy the params files to %APPDATA%/HempyCoinParams
+
+or in one command on Ubuntu with log output: 
+
+    cd depends && make HOST=x86_64-w64-mingw32 && cd .. && ./autogen.sh && CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/ --disable-online-rust && make
+
+or even without tests for quicker builds: 
+
+    cd depends && make HOST=x86_64-w64-mingw32 && cd .. && ./autogen.sh && CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/ --disable-online-rust --disable-tests && make
+
+Bundle together using:
+
+    rsync -r -f '+ *.exe' -f '+ **/' -f '- *' --prune-empty-dirs ./src/ ./build/
+    echo 'PUSHD "%~dp0" && XCOPY "params\" "%APPDATA%\HempyCoinParams\" /E /H /C /R /Q /Y' > $PWD/build/install-params.bat && $PWD/util/fetch-params.sh $PWD/build/params
 
 ## Depends system
 

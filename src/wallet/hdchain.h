@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef HempyCoin_HDCHAIN_H
-#define HempyCoin_HDCHAIN_H
+#ifndef HEMPYCOIN_HDCHAIN_H
+#define HEMPYCOIN_HDCHAIN_H
 
 #include "key.h"
 
@@ -73,4 +73,4 @@ public:
     }
 };
 
-#endif // HempyCoin_HDCHAIN_H
+#endif // HEMPYCOIN_HDCHAIN_H

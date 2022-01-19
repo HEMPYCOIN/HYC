@@ -4,8 +4,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef HempyCoin_KEY_IO_SAPLING_H
-#define HempyCoin_KEY_IO_SAPLING_H
+#ifndef HEMPYCOIN_KEY_IO_SAPLING_H
+#define HEMPYCOIN_KEY_IO_SAPLING_H
 
 #include "chainparams.h"
 #include "sapling/zip32.h"
@@ -20,4 +20,4 @@ namespace KeyIO {
     libzcash::SpendingKey DecodeSpendingKey(const std::string& str);
 }
 
-#endif //HempyCoin_KEY_IO_SAPLING_H
+#endif //HEMPYCOIN_KEY_IO_SAPLING_H

@@ -6,8 +6,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef HempyCoin_KERNEL_H
-#define HempyCoin_KERNEL_H
+#ifndef HEMPYCOIN_KERNEL_H
+#define HEMPYCOIN_KERNEL_H
 
 #include "main.h"
 #include "stakeinput.h"
@@ -76,4 +76,4 @@ bool CheckProofOfStake(const CBlock& block, std::string& strError, const CBlockI
  */
 bool GetStakeKernelHash(uint256& hashRet, const CBlock& block, const CBlockIndex* pindexPrev = nullptr);
 
-#endif // HempyCoin_KERNEL_H
+#endif // HEMPYCOIN_KERNEL_H
