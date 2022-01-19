@@ -4,8 +4,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef HempyCoin_CONSENSUS_UPGRADES_H
-#define HempyCoin_CONSENSUS_UPGRADES_H
+#ifndef HEMPYCOIN_CONSENSUS_UPGRADES_H
+#define HEMPYCOIN_CONSENSUS_UPGRADES_H
 
 #include "consensus/params.h"
 #include "optional.h"
@@ -82,4 +82,4 @@ Optional<int> NextActivationHeight(
         int nHeight,
         const Consensus::Params& params);
 
-#endif // HempyCoin_CONSENSUS_UPGRADES_H
+#endif // HEMPYCOIN_CONSENSUS_UPGRADES_H

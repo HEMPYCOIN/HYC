@@ -26,7 +26,7 @@ Drag HempyCoin-Qt to your applications folder, and then run HempyCoin-Qt.
 
 ### Need Help?
 
-* See the documentation at the [HempyCoin Wiki](https://github.com/HempyCoin-Project/HempyCoin/wiki)
+* See the documentation at the [HempyCoin Wiki](https://github.com/HEMPYCOIN/HYC/wiki)
 for help and more information.
 * Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [HempyCoin Forum](http://forum.hempycoin.org/).
 * Join our Discord server [Discord Server](https://discord.hempycoin.org)

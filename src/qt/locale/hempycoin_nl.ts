@@ -1890,9 +1890,9 @@ STAKING</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/hempycoin-project/hempycoin-project-translations</source>
+https://www.transifex.com/HEMPYCOIN/HYC-translations</source>
         <translation>Taal ontbreekt of vertaling onvolledig? Help om bij te dragen aan vertalingen:
-https://www.transifex.com/hempycoin-project/hempycoin-project-translations</translation>
+https://www.transifex.com/HEMPYCOIN/HYC-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>

@@ -3,11 +3,12 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef HempyCoin_TEST_TEST_HempyCoin_H
-#define HempyCoin_TEST_TEST_HempyCoin_H
+#ifndef HEMPYCOIN_TEST_TEST_HEMPYCOIN_H
+#define HEMPYCOIN_TEST_TEST_HEMPYCOIN_H
 
 #include "fs.h"
 #include "txdb.h"
+#include "random.h"
 
 #include <boost/thread.hpp>
 

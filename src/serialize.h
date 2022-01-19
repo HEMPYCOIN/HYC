@@ -5,8 +5,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef HempyCoin_SERIALIZE_H
-#define HempyCoin_SERIALIZE_H
+#ifndef HEMPYCOIN_SERIALIZE_H
+#define HEMPYCOIN_SERIALIZE_H
 
 #include <algorithm>
 #include <array>
@@ -961,4 +961,4 @@ size_t GetSerializeSize(const S& s, const T& t)
     return (CSizeComputer(s.GetType(), s.GetVersion()) << t).size();
 }
 
-#endif // HempyCoin_SERIALIZE_H
+#endif // HEMPYCOIN_SERIALIZE_H

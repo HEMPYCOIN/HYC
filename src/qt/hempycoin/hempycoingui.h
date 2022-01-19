@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef HempyCoin_CORE_NEW_GUI_HempyCoinGUI_H
-#define HempyCoin_CORE_NEW_GUI_HempyCoinGUI_H
+#ifndef HEMPYCOIN_CORE_NEW_GUI_HempyCoinGUI_H
+#define HEMPYCOIN_CORE_NEW_GUI_HempyCoinGUI_H
 
 #if defined(HAVE_CONFIG_H)
 #include "config/hempycoin-config.h"
@@ -189,4 +189,4 @@ Q_SIGNALS:
 };
 
 
-#endif //HempyCoin_CORE_NEW_GUI_HempyCoinGUI_H
+#endif //HEMPYCOIN_CORE_NEW_GUI_HempyCoinGUI_H

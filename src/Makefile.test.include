@@ -36,9 +36,6 @@ endif
 # test_hempycoin binary #
 BITCOIN_TESTS =\
   test/arith_uint256_tests.cpp \
-  test/zerocoin_denomination_tests.cpp \
-  test/zerocoin_transactions_tests.cpp \
-  test/zerocoin_bignum_tests.cpp \
   test/addrman_tests.cpp \
   test/allocator_tests.cpp \
   test/base32_tests.cpp \
@@ -74,7 +71,6 @@ BITCOIN_TESTS =\
   test/scheduler_tests.cpp \
   test/script_P2SH_tests.cpp \
   test/script_tests.cpp \
-  test/scriptnum_tests.cpp \
   test/serialize_tests.cpp \
   test/sighash_tests.cpp \
   test/sigopcount_tests.cpp \

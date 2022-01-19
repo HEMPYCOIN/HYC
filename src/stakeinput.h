@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef HempyCoin_STAKEINPUT_H
-#define HempyCoin_STAKEINPUT_H
+#ifndef HEMPYCOIN_STAKEINPUT_H
+#define HEMPYCOIN_STAKEINPUT_H
 
 #include "chain.h"
 #include "streams.h"
@@ -56,4 +56,4 @@ public:
 };
 
 
-#endif //HempyCoin_STAKEINPUT_H
+#endif //HEMPYCOIN_STAKEINPUT_H

@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef HempyCoin_ADDRESSHOLDER_H
-#define HempyCoin_ADDRESSHOLDER_H
+#ifndef HEMPYCOIN_ADDRESSHOLDER_H
+#define HEMPYCOIN_ADDRESSHOLDER_H
 
 #include <QWidget>
 #include <QColor>
@@ -39,4 +39,4 @@ public:
 };
 
 
-#endif //HempyCoin_ADDRESSHOLDER_H
+#endif //HEMPYCOIN_ADDRESSHOLDER_H

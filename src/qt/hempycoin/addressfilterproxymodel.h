@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef HempyCoin_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H
-#define HempyCoin_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H
+#ifndef HEMPYCOIN_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H
+#define HEMPYCOIN_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H
 
 #include <QSortFilterProxyModel>
 #include "addresstablemodel.h"
@@ -45,4 +45,4 @@ private:
 };
 
 
-#endif //HempyCoin_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H
+#endif //HEMPYCOIN_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H

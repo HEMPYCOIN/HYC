@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef HempyCoin_SCRIPT_KEYORIGIN_H
-#define HempyCoin_SCRIPT_KEYORIGIN_H
+#ifndef HEMPYCOIN_SCRIPT_KEYORIGIN_H
+#define HEMPYCOIN_SCRIPT_KEYORIGIN_H
 
 #include <serialize.h>
 #include <vector>
@@ -52,4 +52,4 @@ struct KeyOriginInfo
     }
 };
 
-#endif // HempyCoin_SCRIPT_KEYORIGIN_H
+#endif // HEMPYCOIN_SCRIPT_KEYORIGIN_H

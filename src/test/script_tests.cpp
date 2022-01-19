@@ -17,6 +17,7 @@
 #include "script/sign.h"
 #include "util.h"
 #include "test_hempycoin.h"
+#include "utilstrencodings.h"
 
 #if defined(HAVE_CONSENSUS_LIB)
 #include "script/bitcoinconsensus.h"

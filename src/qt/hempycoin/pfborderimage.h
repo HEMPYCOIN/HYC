@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef HempyCoin_PFBorderImage_H
-#define HempyCoin_PFBorderImage_H
+#ifndef HEMPYCOIN_PFBorderImage_H
+#define HEMPYCOIN_PFBorderImage_H
 
 #include <QPainter>
 #include <QPixmap>
@@ -53,4 +53,4 @@ protected:
 
 };
 
-#endif //HempyCoin_PFBorderImage_H
+#endif //HEMPYCOIN_PFBorderImage_H

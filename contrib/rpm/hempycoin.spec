@@ -24,18 +24,18 @@ URL:		https://hempycoin.org/
 Source0:	https://hempycoin.org/bin/hempycoin-core-%{version}/hempycoin-%{version}.tar.gz
 Source1:	http://download.oracle.com/berkeley-db/db-%{bdbv}.NC.tar.gz
 
-Source10:	https://raw.githubusercontent.com/hempycoin-project/hempycoin/v%{version}/contrib/debian/examples/hempycoin.conf
+Source10:	https://raw.githubusercontent.com/HEMPYCOIN/HYC/v%{version}/contrib/debian/examples/hempycoin.conf
 
 #man pages
-Source20:	https://raw.githubusercontent.com/hempycoin-project/hempycoin/v%{version}/doc/man/hempycoind.1
-Source21:	https://raw.githubusercontent.com/hempycoin-project/hempycoin/v%{version}/doc/man/hempycoin-cli.1
-Source22:	https://raw.githubusercontent.com/hempycoin-project/hempycoin/v%{version}/doc/man/hempycoin-qt.1
+Source20:	https://raw.githubusercontent.com/HEMPYCOIN/HYC/v%{version}/doc/man/hempycoind.1
+Source21:	https://raw.githubusercontent.com/HEMPYCOIN/HYC/v%{version}/doc/man/hempycoin-cli.1
+Source22:	https://raw.githubusercontent.com/HEMPYCOIN/HYC/v%{version}/doc/man/hempycoin-qt.1
 
 #selinux
-Source30:	https://raw.githubusercontent.com/hempycoin-project/hempycoin/v%{version}/contrib/rpm/hempycoin.te
+Source30:	https://raw.githubusercontent.com/HEMPYCOIN/HYC/v%{version}/contrib/rpm/hempycoin.te
 # Source31 - what about hempycoin-tx and bench_hempycoin ???
-Source31:	https://raw.githubusercontent.com/hempycoin-project/hempycoin/v%{version}/contrib/rpm/hempycoin.fc
-Source32:	https://raw.githubusercontent.com/hempycoin-project/hempycoin/v%{version}/contrib/rpm/hempycoin.if
+Source31:	https://raw.githubusercontent.com/HEMPYCOIN/HYC/v%{version}/contrib/rpm/hempycoin.fc
+Source32:	https://raw.githubusercontent.com/HEMPYCOIN/HYC/v%{version}/contrib/rpm/hempycoin.if
 
 Source100:	https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg
 
